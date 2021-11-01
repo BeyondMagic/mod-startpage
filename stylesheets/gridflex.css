@@ -1,0 +1,38 @@
+body {
+
+  /* Grid beautiful and easily editable */
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "name time time time location"
+    "search search search search search"
+    "links links links links links"
+    "links links links links links"
+    "author quote quote quote source"; 
+  
+}
+
+/* Centre all sections */
+body > * {
+  /* Base position for container */
+  position: relative;
+  
+  /* Flex as base for cantering */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* Always above wallpaper */
+  z-index: 2;
+}
+
+#time-container { grid-area: time; }
+#quote-container { grid-area: quote; }
+#author-container { grid-area: author; }
+#source-container { grid-area: source; }
+#links-container { grid-area: links; }
+#search-container { grid-area: search; }
+#profile-container { grid-area: name; }
+#nothing-container { grid-area: location; }

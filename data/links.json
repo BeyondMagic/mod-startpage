@@ -1,0 +1,57 @@
+{
+  "blogs": [
+    ["cormullion", "https://cormullion.github.io/", "Guy who makes cool graphical things with Julia."],
+    ["Rebecka Taule", "https://retaule.no/", "Amazing woman who makes the coolest animated videos."],
+    ["Hector Garcia", "https://ageekinjapan.com/", "Dude in Japan who makes cool articles about living there and the culture."],
+    ["Orion Math", "orion.math.iastate.edu/ehjohnst/PoW/PoW.html", "Math challenges."],
+    ["Hormone Hangover", "https://hormonehangover.substack.com/p/responding-to-criticism", "Detransitioner who challenges the dogmatic current view on Transgenderism."],
+    ["Love Unleashes Love", "https://loveunleasheslife.com/", "One of the best pro-life apologetics out there."],
+    ["Mad in America", "https://madinamerica.com", "Bad Science and Bad Medicine."],
+    ["Object Now", "https://object.now/what-about-the-girls", "Transgenderism, for teenage girls, is the wrong answer to a woman-and-girl-hating culture."],
+    ["The Marshall Project", "https://madinamerica.com", "An unbelievable story of rape."],
+    ["America Magazine", "https://www.americamagazine.org", "Catholicism in the realms of logic, social justice, traditionalism and progressivism."],
+    ["Archive of Our Own", "https://archiveofourown.org/", "For fanfics!!!"],
+    ["Bari Weiss", "https://bariweiss.substack.com/", "An incredible writer of the post-modern world."],
+    ["Patheos", "https://www.patheos.com", "An Catholicism culture of the post-modern world."],
+    ["Sex Matters", "https://sex-matters.org", "What is sex and why it is so important for our world."],
+    ["2,363", "https://2363.org", "Will you fight for the 2,363?"]
+  ],
+
+  "school": [
+    ["CR", "https://classroom.google.com/u/2/h", "Classroom..."]
+  ],
+
+  "fun": [
+    ["renegal soundcloud", "https://soundcloud.com/renegal/tracks", "Cool songs."]
+  ],
+
+  "social": [
+    ["Whatsapp", "https://web.whatsapp.com/", "Whatsapp for LIFE."],
+    ["Twitter", "https://twitter.com/", "Just RTing cool things."]
+  ],
+
+  "coding": [
+    ["RegExr", "https://regexr.com/", "Test the Hell's language."],
+    ["CSS IMG Filter", "https://codepen.io/sosuke/pen/Pjoqqp", "Change the colour of an image with CSS."],
+    ["Github", "https://github.com/", "Programming and Coding for life."],
+    ["Shell Conditions", "https://tldp.org/LDP/abs/html/comparison-ops.html", "Conditions for Shell"],
+    ["Bashism", "https://mywiki.wooledge.org/Bashism", "Bashism for shell scripting (future) fixes."],
+    ["Terminal Namepad", "https://terminalguide.namepad.de/seq/", "Escapes for Terminal developing."]
+  ],
+
+  "design": [
+    ["2D Animations", "https://vimeo.com/channels/600680", "2D Beatiful animations."],
+    ["Unsplash", "https://unsplash.com/", "Photographies from the World."],
+    ["Inktober52", "https://inktober.com/inktober52", "For drawing every week :)"],
+    ["Santiago Borja", "https://www.santiagoborja.com/", "Photographies from the sky."],
+    ["Eric Armusik", "https://www.ericarmusik.com/", "Post-Modernist Catholic artwork."],
+    ["Leonardo Colour", "https://leonardocolor.io/", "Design colour test."],
+    ["awanqi", "https://linktr.ee/awanqi", "Graphical designer with wonderful colours."],
+    ["Katelyn Rogers", "https://linktr.ee/awanqi", "Wonderful coloring."]
+  ],
+
+  "cuty": [
+    ["raridashdoodles", "https://raridashdoodles.tumblr.com/post/130577340824/raridash-week-friday-wedding-bells-after", "Raridash Doodles."],
+    ["Space Cat Samba", "https://www.spacecatsamba.com/", "MLP Artwork."]
+  ]
+}

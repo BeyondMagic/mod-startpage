@@ -1,0 +1,18 @@
+/*
+ * Quote container
+ * */
+
+#quote {
+
+  padding: .25rem 1rem .25rem 3rem;
+  text-align: justify;
+
+  border-left: 4px solid var(--accent-colour);
+
+}
+
+#quote::after {
+
+  display: none;
+
+}

@@ -1,0 +1,43 @@
+/* 
+ * Import all the containers' CSS
+ * */
+@import url("./ui/profile.css");
+@import url("./ui/search.css");
+@import url("./ui/time.css");
+@import url("./ui/links.css");
+@import url("./ui/quote.css");
+
+/*
+ * For all containers
+ * */
+body > *:not(#background) {
+
+  color: var(--text-colour);
+  
+}
+
+.dark {
+
+  position: relative;
+
+  /* Styling */
+  background: var(--background-colour);
+  box-shadow: 0 0 1rem var(--light-input);
+  backdrop-filter: blur(4px);
+
+}
+
+.dark::after {
+
+  content: '';
+
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  
+  border: 2px solid var(--accent-colour);
+  pointer-events: none;
+
+  box-shadow: 0 0 1rem var(--light-input); 
+
+}

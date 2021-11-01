@@ -1,0 +1,23 @@
+/*
+ * Profile container (name, location, profile image)
+ * */
+
+#profile-container {
+
+  flex-direction: column;
+  font-family: vcsm;
+  text-shadow: 0 0 .25rem var(--text-colour);
+
+} #profile-container > #profile {
+
+  width: 5rem; height: 5rem;
+  border-radius: 50%;
+  background-image: url('../../data/profile');
+  background-position: center;
+  background-size: cover;
+
+} #profile-container > #location {
+
+  font-size: 0.85rem;
+  
+}

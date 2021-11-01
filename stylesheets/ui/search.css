@@ -1,0 +1,64 @@
+/*
+ * Input container
+ * */
+
+#form {
+
+  /* Width of search input */
+  position: relative;
+  width: 50%;
+  padding: 1rem 2rem;
+  border-radius: 1.5rem;
+  
+} #form::after {
+
+  width: 98%; height: 77.5%;
+  border-radius: 1.5rem;
+  
+} #form #input {
+  
+  /* Fit size w/ border padding */
+  box-sizing: border-box;
+  width: 100%;
+
+  /* Cantering and middling of text & size */
+  text-align: center;
+  font-size: 1.25rem;
+  color: var(--text-colour);
+  text-shadow: 0 0 2px var(--text-colour);
+
+  /* Styling */
+  background: none; outline: none; border: none;
+  opacity: 0;
+
+  /* Trasition */
+  transition: 200ms linear opacity;
+
+} #form #input:not(:placeholder-shown) {
+
+  opacity: 1;
+
+} #form #input-label {
+  
+  /* Middle & centre position of input*/
+  position: absolute;
+  bottom: 0.5rem; right: 50%;
+  transform: translate(50%, -50%);
+
+  /* Ignore mouse events */
+  pointer-events: none;
+
+  /* Effect time of transition */
+  transition: 200ms linear all; 
+
+/* Effect to remove label when on input */
+}
+
+#form #input:not(:placeholder-shown) ~ #input-label,
+#form #input:hover ~ #input-label,
+#form #input:focus ~ #input-label {
+
+  bottom: 3.5rem;
+  opacity: 0.25;
+
+}

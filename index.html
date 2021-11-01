@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Head Page -->
+<head>
+
+  <!-- Basics -->
+  <meta charset="utf-8">
+
+  <!-- Parameters -->
+  <title>Home For Iris</title>
+  <meta name="description" content="A simple, but yet, powerful homepage.">
+ 
+  <!---- Styles ---->
+  <!-- Colours for the UI -->
+  <link rel="stylesheet" href="./stylesheets/colours.css">
+  <!-- Home -->
+  <link rel="stylesheet" href="./stylesheets/background.css">
+  <!-- Fonts -->
+  <link rel="stylesheet" href="./stylesheets/fonts.css">
+  <!-- Grid/Flex parts of the UI -->
+  <link rel="stylesheet" href="./stylesheets/gridflex.css">
+  <!-- UI itself -->
+  <link rel="stylesheet" href="./stylesheets/ui.css">
+
+  <!---- Scripts ---->
+  <!-- Load meta things in the page -->
+  <script defer src="./javascript/config.js"></script>
+  
+  <!-- Animations (just for the background) --->
+  <script defer src="./javascript/animations.js"></script>
+  
+  <!-- Load for auto-update time -->
+  <script defer src="./javascript/time.js"></script>
+  
+  <!-- Load JSON for quotes -->
+  <script defer src="./javascript/quotes.js"></script>
+  
+  <!-- Load JSON for links -->
+  <script defer src="./javascript/links.js"></script>
+
+  <!-- Load SEARCH engine for search... -->
+  <script defer src="./javascript/search.js"></script>
+
+  <!-- UI colouring --->
+  <script defer src="./javascript/ui.js"></script>
+   
+</head>
+
+<!-- Body Page -->
+<body>
+
+  <!--- Background Dummie -->
+  <section id="background" style="background-image: url('./data/background');"></section>
+  
+  <!-- Time Block -->
+  <section id="time-container"><div id="time"></div></section>
+
+  <!-- Quote Block -->
+  <section id="quote-container"><div id="quote" class="dark"></div></section>
+  <section id="author-container"><div id="author"></div></section>
+  <section id="source-container"><div id="source"></div></section>
+
+  <!-- Links Block -->
+  <section id="links-container"><div id="links"></div></section>
+
+  <!-- Search Block -->
+  <section id="search-container">
+    <!-- Button to select different Search engine --->
+    <form id="form" class="dark" action="link" method="get" target="_self" autocomplete="off"> 
+  		<input id="input" type="text" placeholder="">
+      <div id="input-border"></div>
+      <label id="input-label"></label>
+  	</form>
+  </section>
+
+  <!--- Name Block (empty if there isn't any on config.json) -->
+  <section id="profile-container">
+    <div id="name"></div>
+    <div id="profile" class="dark"></div>
+    <div id="location"></div>
+  </section>
+
+  <!--- Location Block (empty if there isn't any on config.json) -->
+  <section id="nothing-container"><div></div></section>
+  
+</body>
+
+</html>

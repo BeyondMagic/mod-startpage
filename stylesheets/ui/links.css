@@ -1,0 +1,106 @@
+#links-container {
+
+  justify-content: unset;
+  flex-direction: row;
+
+  height: 100%;
+  width: 97.5%;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+
+  overflow-x: scroll;
+  font-family: bbkk;
+
+  border-left: 3px solid var(--accent-colour);
+  border-right: 3px solid var(--accent-colour);
+  
+}
+
+#links {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+  height: 100%; width: max-content;
+  padding: 0 .5rem;
+
+  /* Fixed with to links */
+  position: absolute;
+
+} #links > * {
+
+  height: 70%; width: 15rem;
+
+  margin: 0 .5rem; padding: 1rem 0;
+  padding-top: 1.15rem;
+
+} #links > * > * {
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: scroll;
+  height: 100%;
+  
+} #links > *::after {
+
+  width: 92.15%; height: 95%;
+
+}
+
+#links > * a {
+
+  color: var(--text-colour);
+  text-decoration: none;
+
+  transition: color 125ms linear;
+
+}
+
+#links > * a:hover {
+
+  color: var(--accent-colour);
+  text-decoration: underline;
+  font-weight: 700;
+
+}
+
+#links > * a + span {
+
+  height: 0; opacity: 0;
+  color: var(--accent-colour);
+
+  width: 75%;
+  text-align: center;
+
+  overflow: hidden;
+
+  transition: all 250ms linear;
+
+}
+
+#links > * a + span.show-label {
+
+  height: min-content; opacity: .75;
+  overflow: visible;
+
+}
+
+#links .group-label {
+
+  position: absolute;
+  top: .25rem; left: 1rem;
+  opacity: .5;
+
+  font-family: 'bbkk';
+  font-weight: 300;
+  font-size: 0.95rem;
+
+  pointer-events: none;
+
+  color: var(--accent-colour);
+  
+
+}

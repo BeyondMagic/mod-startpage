@@ -1,0 +1,101 @@
+/* bbkk
+ * gmsj
+ * vcsm
+ * */
+
+@font-face {
+
+  font-family: "bbkk";
+  font-weight: 300;
+  font-style: normal;
+  src:
+    url(https://use.typekit.net/af/1416a9/00000000000000007735a15a/30/l?subset_id=1&fvd=n3&v=3) format("woff2"),
+    url(https://use.typekit.net/af/1416a9/00000000000000007735a15a/30/d?subset_id=1&fvd=n3&v=3) format("woff"),
+    url(https://use.typekit.net/af/1416a9/00000000000000007735a15a/30/a?subset_id=1&fvd=n3&v=3) format("opentype");
+  
+}
+
+@font-face {
+
+  font-family: "bbkk";
+  font-weight: 400;
+  font-style: normal;
+  src:
+    url(https://use.typekit.net/af/5e6988/00000000000000007735a163/30/l?subset_id=1&fvd=n4&v=3) format("woff2"),
+    url(https://use.typekit.net/af/5e6988/00000000000000007735a163/30/d?subset_id=1&fvd=n4&v=3) format("woff"),
+    url(https://use.typekit.net/af/5e6988/00000000000000007735a163/30/a?subset_id=1&fvd=n4&v=3) format("opentype");
+  
+}
+
+@font-face {
+
+  font-family: "bbkk";
+  font-weight: 600;
+  font-style: normal;
+  src:
+    url(https://use.typekit.net/af/61b4ba/00000000000000007735a167/30/l?subset_id=1&fvd=n6&v=3) format("woff2"),
+    url(https://use.typekit.net/af/61b4ba/00000000000000007735a167/30/d?subset_id=1&fvd=n6&v=3) format("woff"),
+    url(https://use.typekit.net/af/61b4ba/00000000000000007735a167/30/a?subset_id=1&fvd=n6&v=3) format("opentype");
+
+}
+
+@font-face {
+
+  font-family: "bbkk";
+  font-weight: 700;
+  font-style: normal;
+  src:
+    url(https://use.typekit.net/af/09d302/00000000000000007735a14e/30/l?subset_id=1&fvd=n7&v=3) format("woff2"),
+    url(https://use.typekit.net/af/09d302/00000000000000007735a14e/30/d?subset_id=1&fvd=n7&v=3) format("woff"),
+    url(https://use.typekit.net/af/09d302/00000000000000007735a14e/30/a?subset_id=1&fvd=n7&v=3) format("opentype");
+  
+}
+
+@font-face {
+
+  font-family: "gmsj";
+  font-weight: 700;
+  font-style: normal;
+  src:
+    url(https://use.typekit.net/af/09d302/00000000000000007735a14e/30/l?subset_id=1&fvd=n7&v=3) format("woff2"),
+    url(https://use.typekit.net/af/09d302/00000000000000007735a14e/30/d?subset_id=1&fvd=n7&v=3) format("woff"),
+    url(https://use.typekit.net/af/09d302/00000000000000007735a14e/30/a?subset_id=1&fvd=n7&v=3) format("opentype");
+  
+}
+
+
+@font-face {
+
+  font-family: "vcsm";
+  font-weight: 400;
+  font-style: normal;
+  src:
+    url(https://use.typekit.net/af/e0617b/000000000000000077359943/30/l?subset_id=1&fvd=n7&v=3) format("woff2"),
+    url(https://use.typekit.net/af/e0617b/000000000000000077359943/30/d?subset_id=1&fvd=n7&v=3) format("woff"),
+    url(https://use.typekit.net/af/e0617b/000000000000000077359943/30/a?subset_id=1&fvd=n7&v=3) format("opentype");
+  
+}
+
+@font-face {
+
+  font-family: "vcsm";
+  font-weight: 600;
+  font-style: normal;
+  src:
+    url(https://use.typekit.net/af/e4b1a9/000000000000000077359571/30/l?subset_id=1&fvd=n6&v=3) format("woff2"),
+    url(https://use.typekit.net/af/e4b1a9/000000000000000077359571/30/d?subset_id=1&fvd=n6&v=3) format("woff"),
+    url(https://use.typekit.net/af/e4b1a9/000000000000000077359571/30/a?subset_id=1&fvd=n6&v=3) format("opentype");
+  
+}
+
+@font-face {
+
+  font-family: "vcsm";
+  font-weight: 700;
+  font-style: normal;
+  src:
+    url(https://use.typekit.net/af/98e3f6/000000000000000077359562/30/l?subset_id=1&fvd=n7&v=3) format("woff2"),
+    url(https://use.typekit.net/af/98e3f6/000000000000000077359562/30/d?subset_id=1&fvd=n7&v=3) format("woff"),
+    url(https://use.typekit.net/af/98e3f6/000000000000000077359562/30/a?subset_id=1&fvd=n7&v=3) format("opentype");
+  
+}

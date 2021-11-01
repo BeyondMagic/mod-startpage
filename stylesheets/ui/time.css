@@ -1,0 +1,26 @@
+/*
+ * Time container
+ * */
+#time {
+  
+  /* Select strong font for the text */
+  font-family: gmsj;
+  font-size: 2.5rem;
+
+  /* Text shadow */
+  text-shadow: 0 0 8px var(--sub-colour);
+
+  /* Make it non-selectable */
+  user-select: none;
+  
+} #time > .dots {
+
+  /* Opaque and smaller compared to the other letters */
+  font-size: 2.25rem;
+  opacity: 0.55;
+  
+  /* Vertical center between letters */
+  position: relative;
+  top: -0.2rem;
+
+}

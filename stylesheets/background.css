@@ -1,0 +1,54 @@
+/*
+ * Root elements
+ * */
+
+html {
+  
+  /* Make HTML body fit on body */
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+body {
+
+  /* Size to fit whole body available */
+  margin: 0;
+  width: 100%;
+  height: 100%;
+
+  font-family: bbkk;
+
+}
+
+#background, #background-img {
+
+  /* Make it invisible for the rest of the page and fit the body */
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+
+  /* Image to be loaded */
+  background-repeat: no-repeat;
+  background-size: cover;
+
+/* Pseudo-element for blurring */
+} #background::after {
+
+  /* Fit the container */
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  
+  /* Effects to be loaded in 'animations.js' */
+  pointer-events: none;
+
+}
+
+#background-img {
+
+  visibility: hidden; 
+
+}
