@@ -10,7 +10,6 @@ let blur_background,    // Level of blur on the image
     searches;         // Searches to be used by the input and form
 
 // config.json handling
-
 fetch("./data/config.json")
 .then(response => response.json())
 .then(json => {
@@ -19,24 +18,6 @@ fetch("./data/config.json")
   let name = document.getElementById('name');
   
   console.log("[config.js] quotes.json has loaded.");
-
-  if (json.location) {
-    where.textContent = json.location;
-    console.log("[config.js] location has loaded.");
-  }
-  else {
-    console.log("[config.js] no location was found.");
-    where.remove();
-  }
-
-  if (json.name) {
-    name.textContent = json.name;
-    console.log("[config.js] name has loaded.");
-  }
-  else {
-    console.log("[config.js] no name was found.");
-    name.remove();
-  }
 
   // Public global variables for other .js files
   blur_background  = json.blur_background;
@@ -48,5 +29,31 @@ fetch("./data/config.json")
 
   // search.js
   load_engines();
-  
+
+  if (json.show_profile) {
+
+    if (json.location) {
+      where.textContent = json.location;
+      console.log("[config.js] location has loaded.");
+    }
+    else {
+      console.log("[config.js] no location was found.");
+      where.remove();
+    }
+
+    if (json.name) {
+      name.textContent = json.name;
+      console.log("[config.js] name has loaded.");
+    }
+    else {
+      console.log("[config.js] no name was found.");
+      name.remove();
+    }
+
+  } else {
+
+    document.getElementById('profile').remove();
+
+  }
+
 });

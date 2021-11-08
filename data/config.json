@@ -1,6 +1,7 @@
 {
   "location": "Somewhere somewhere.",
   "name": "yourname",
+  "show_profile": false,
   "blur_background": "11",
   "blur_time": "125ms",
   "blur_effect": "ease-in-out",
