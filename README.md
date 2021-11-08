@@ -15,6 +15,8 @@
 + `data/quotes.json` : Modular so that you can add, remove, edit quotes easily.
 + ` data/background` : Easily change the background shown in the page (colours will adapt automatically)
 + `    data/profile` : Easily change the profile picture shown in the page. (disabled by default).
++ `Keybinds` : Set of keys that can enable or change something on the page:
++ + `Ctrl+Up` : Select next search engine.
 
 ---
 
