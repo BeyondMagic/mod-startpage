@@ -46,7 +46,22 @@
 
   };
 
+
+  // Insert temporary colour
+  if (localStorage['last-accent'])
+    document.styleSheets[0].insertRule(`
+      :root {
+
+        --accent-colour: ${localStorage['last-accent']};
+
+      }
+    `, 0);
+
   await new Promise(() => setTimeout(function () {
+
+    // Remove temporary colour
+    if (localStorage['last-accent'])
+      document.styleSheets[0].deleteRule(0); 
     
     if (automatic_accent === true) {
       let rgb = getAverageRGB(document.getElementById('background'));
@@ -62,7 +77,9 @@
 
       }
     `, 0)
+
+    localStorage['last-accent'] = accent;
     
-  }, 250) );
+  }, 1000) );
 
 })();
