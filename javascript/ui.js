@@ -26,7 +26,7 @@
       rgb.g += data.data[i+1];
       rgb.b += data.data[i+2];
     }
-    
+
     // ~~ Used to floor values
     rgb.r = ~~(rgb.r/count);
     rgb.g = ~~(rgb.g/count);
@@ -40,10 +40,10 @@
       rgb.b = rgb.b + 30;
 
     }
-    
+
     img_dummy.remove();
     return rgb;
-    
+
   };
 
   await new Promise(() => setTimeout(function () {
@@ -63,6 +63,6 @@
       }
     `, 0)
     
-  }, 100) );
+  }, 150) );
 
 })();
