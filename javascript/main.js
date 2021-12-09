@@ -327,7 +327,7 @@ window.addEventListener('DOMContentLoaded', async () => {
 
       }
 
-      initial (accent = '') {
+      async initial (accent = '') {
 
         if ( json.automatic_accent === true ) {
 
@@ -335,6 +335,14 @@ window.addEventListener('DOMContentLoaded', async () => {
           accent = `rgb(${rgb.r}, ${rgb.g}, ${rgb.b})`;
 
         } else accent = this._default_color;
+
+        while (accent === 'rgb(30, 30, 30)') {
+
+          await delay(250)
+          const rgb = this.average( document.getElementById('background') );
+          accent = `rgb(${rgb.r}, ${rgb.g}, ${rgb.b})`;
+
+        }
 
         this.set(accent)
 
