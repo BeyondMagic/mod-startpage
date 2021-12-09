@@ -16,6 +16,13 @@ body > *:not(#background) {
   
 }
 
+/* Chrome Engine */
+*::-webkit-scrollbar {
+
+  display: none;
+
+}
+
 .dark {
 
   position: relative;
