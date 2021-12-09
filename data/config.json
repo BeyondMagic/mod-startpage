@@ -7,9 +7,9 @@
   "blur_effect": "ease-in-out",
   "accent": "rgb(255, 166, 161)",
   "automatic_accent": true,
-  "searches": {
-    "google": ["https://www.google.com/search", "q"],
-    "youtube": ["https://www.youtube.com/results", "search_query"],
-    "github": ["https://github.com/search", "q"]
-  }
+  "searches": [
+    [ "google", "https://www.google.com/search", "q" ],
+    [ "youtube", "https://www.youtube.com/results", "search_query" ],
+    [ "github", "https://github.com/search", "q" ]
+  ]
 }
