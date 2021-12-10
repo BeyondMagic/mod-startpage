@@ -36,8 +36,7 @@ window.addEventListener('DOMContentLoaded', async () => {
         // To change engine when we press CTRL + Up
         this._input.addEventListener( 'keydown', e => {
 
-          if (e.ctrlKey && e.code === 'ArrowUp') this.set( json.searches[this._current_engine++] )
-
+          if (e.ctrlKey && e.code === 'ArrowUp')   this.set( json.searches[this._current_engine++] )
           if (e.ctrlKey && e.code === 'ArrowDown') this.set( json.searches[this._current_engine--] )
 
         });
@@ -89,8 +88,8 @@ window.addEventListener('DOMContentLoaded', async () => {
             if (_containers[i].id !== 'links-container') {
           
               // To blur when we hover things.
-              child.addEventListener('mouseover', () => this.blur() );
-              child.addEventListener('mouseleave', () => this.unblur() );
+              child.addEventListener( 'mouseover',  () => this.blur() )
+              child.addEventListener( 'mouseleave', () => this.unblur() )
 
             }
             
@@ -98,8 +97,8 @@ window.addEventListener('DOMContentLoaded', async () => {
 
         }
 
-        _search_bar.addEventListener('focusin', () => this.blur()); 
-        _search_bar.addEventListener('focusout', () => this.unblur());
+        _search_bar.addEventListener( 'focusin',  () => this.blur() )
+        _search_bar.addEventListener( 'focusout', () => this.unblur() )
 
       }
 
@@ -160,8 +159,8 @@ window.addEventListener('DOMContentLoaded', async () => {
 
               const box = document.getElementById(`links-${group}`);
               
-              box.addEventListener('mouseover', () => blurMethod.blur());
-              box.addEventListener('mouseleave', () => blurMethod.unblur());
+              box.addEventListener( 'mouseover',  () => blurMethod.blur() );
+              box.addEventListener( 'mouseleave', () => blurMethod.unblur() );
               
               box.insertAdjacentHTML( 'beforeend', `
                 <a href="${links[group][i][1]}">${links[group][i][0]}</a>
@@ -170,16 +169,16 @@ window.addEventListener('DOMContentLoaded', async () => {
               const link_child   = box.children[i*2],         // To only select the link elements.
                     link_sibling = link_child.nextElementSibling // Select label of the link.
 
-              link_child.addEventListener( 'mouseover', () => this.hover( link_sibling, 750 ) );
-              link_child.addEventListener( 'mouseleave', () => this.unhover( link_sibling ) );
+              link_child.addEventListener( 'mouseover',  () => this.hover( link_sibling, 750 ) )
+              link_child.addEventListener( 'mouseleave', () => this.unhover( link_sibling ) )
 
-              link_sibling.addEventListener( 'mouseover', () => this.hover(link_sibling) );
-              link_sibling.addEventListener( 'mouseleave', () => this.unhover(link_sibling) );
-
+              link_sibling.addEventListener( 'mouseover',  () => this.hover(link_sibling) )
+              link_sibling.addEventListener( 'mouseleave', () => this.unhover(link_sibling) )
 
             }
           })
- 
+
+          this.overflow()
 
         })
 
@@ -211,10 +210,10 @@ window.addEventListener('DOMContentLoaded', async () => {
 
             case 'A':
             case 'SPAN':
-              overflownElement = evt.target.parentElement;
+              overflownElement = evt.target.parentElement
               break;
             case 'SECTION':
-              overflownElement = evt.target;
+              overflownElement = evt.target
               break;
             case 'DIV':
               if (evt.target.classList[0] === 'dark')
@@ -261,7 +260,7 @@ window.addEventListener('DOMContentLoaded', async () => {
 
     }
 
-    class Quotes { 
+    class Quotes {
 
       constructor () {
 
@@ -338,8 +337,6 @@ window.addEventListener('DOMContentLoaded', async () => {
 
         while (accent === 'rgb(30, 30, 30)') {
 
-          await delay(250)
-          const rgb = this.average( document.getElementById('background') );
           accent = `rgb(${rgb.r}, ${rgb.g}, ${rgb.b})`;
 
         }
@@ -410,18 +407,14 @@ window.addEventListener('DOMContentLoaded', async () => {
 
     }
 
-    const blurMethod  = new Blur( json.blur_background, json.blur_effect, json.blur_time )
-    const linksMethod = new Links()
-
-    new Engines().initial()
-    blurMethod.initial()
-
-    linksMethod.initial()
-    linksMethod.overflow()
+    const blurMethod = new Blur( json.blur_background, json.blur_effect, json.blur_time )
 
     new Time().update()
+    new Engines().initial()
+    new Links().initial()
     new Quotes().initial()
     new Background().initial()
+    blurMethod.initial()
 
   });
 
