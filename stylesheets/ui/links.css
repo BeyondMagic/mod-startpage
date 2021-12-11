@@ -9,6 +9,9 @@
   transform: translate(-50%, -50%);
 
   overflow-x: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #80808040 transparent !important;
+
   font-family: bbkk;
 
   border-left: 3px solid var(--accent-colour);
@@ -41,7 +44,11 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+
   overflow: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #80808040 transparent !important;
+
   height: 100%;
   
 } #links > *::after {

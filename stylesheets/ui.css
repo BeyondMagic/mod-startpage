@@ -13,7 +13,7 @@
 body > *:not(#background) {
 
   color: var(--text-colour);
-  
+
 }
 
 /* Chrome Engine */
