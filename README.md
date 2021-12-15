@@ -38,7 +38,7 @@ Just add a new item on the `data/quotes.json`, the first sub-item must be the **
 ]
 ```
 
-It's basically self-explanatory, each object is a container, each cointainer cointains items, each item must contain the name, link and description of the website.
+It's basically self-explanatory, each object is a container, each container contains items, each item must contain the name, link and description of the website.
 
 `data/links.json`
 
