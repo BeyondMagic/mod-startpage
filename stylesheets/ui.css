@@ -7,6 +7,25 @@
 @import url("./ui/links.css");
 @import url("./ui/quote.css");
 
+/* Chrome Specific engine */
+::-webkit-scrollbar {
+   width: 4px;
+   height: 4px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #80808040;
+}
+::-webkit-scrollbar-button,
+::-webkit-scrollbar-corner {
+
+  background: transparent;
+
+}
+
 /*
  * For all containers
  * */
