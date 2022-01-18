@@ -6,7 +6,11 @@
 @import url("./ui/time.css");
 @import url("./ui/links.css");
 @import url("./ui/quote.css");
+::selection {
 
+  background: var(--accent-colour);
+
+}
 /* Chrome Specific engine */
 ::-webkit-scrollbar {
    width: 4px;
