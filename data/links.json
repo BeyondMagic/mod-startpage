@@ -17,11 +17,15 @@
     ["2,363", "https://2363.org", "Will you fight for the 2,363?"]
   ],
 
-  "school": [
-    ["CR", "https://classroom.google.com/u/2/h", "Classroom..."]
+  "Daily": [
+    ["CR", "https://classroom.google.com/u/2/h", "Classroom..."],
+    ["inbox", "https://inbox.google.com", "gmail"],
+    ["github", "https://github.com", "github"],
+    ["drive-google", "https://drive.google.com", "google"],
+    ["sololearn", "https://www.sololearn.com/profile/25104531", "profile"]
   ],
 
-  "fun": [
+  "Media": [
     ["renegal soundcloud", "https://soundcloud.com/renegal/tracks", "Cool songs."]
   ],
 
@@ -39,7 +43,7 @@
     ["Terminal Namepad", "https://terminalguide.namepad.de/seq/", "Escapes for Terminal developing."]
   ],
 
-  "design": [
+  "Reddit": [
     ["2D Animations", "https://vimeo.com/channels/600680", "2D Beatiful animations."],
     ["Unsplash", "https://unsplash.com/", "Photographies from the World."],
     ["Inktober52", "https://inktober.com/inktober52", "For drawing every week :)"],
