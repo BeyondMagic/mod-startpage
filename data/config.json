@@ -1,7 +1,7 @@
 {
   "location": "Somewhere somewhere.",
-  "name": "yourname",
-  "show_profile": false,
+  "name": "sina",
+  "show_profile": true,
   "blur_background": "11",
   "blur_time": "125ms",
   "blur_effect": "ease-in-out",
@@ -11,6 +11,8 @@
     [ "google", "https://www.google.com/search", "q" ],
     [ "youtube", "https://www.youtube.com/results", "search_query" ],
     [ "github", "https://github.com/search", "q" ],
-    [ "wikipedia", "https://en.wikipedia.org/wiki/Special:Search", "q" ]
+    [ "wikipedia", "https://en.wikipedia.org/wiki/Special:Search", "q" ],
+    [ "Amazon", "https://www.amazon.com/search", "q" ],
+    [ "Facebook", "https://www.facebook.com/search", "q" ]
   ]
 }

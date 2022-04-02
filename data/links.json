@@ -1,37 +1,52 @@
 {
-  "blogs": [
-    ["cormullion", "https://cormullion.github.io/", "Guy who makes cool graphical things with Julia."],
-    ["Rebecka Taule", "https://retaule.no/", "Amazing woman who makes the coolest animated videos."],
-    ["Hector Garcia", "https://ageekinjapan.com/", "Dude in Japan who makes cool articles about living there and the culture."],
-    ["Orion Math", "orion.math.iastate.edu/ehjohnst/PoW/PoW.html", "Math challenges."],
-    ["Hormone Hangover", "https://hormonehangover.substack.com/p/responding-to-criticism", "Detransitioner who challenges the dogmatic current view on Transgenderism."],
-    ["Love Unleashes Love", "https://loveunleasheslife.com/", "One of the best pro-life apologetics out there."],
-    ["Mad in America", "https://madinamerica.com", "Bad Science and Bad Medicine."],
-    ["Object Now", "https://object.now/what-about-the-girls", "Transgenderism, for teenage girls, is the wrong answer to a woman-and-girl-hating culture."],
-    ["The Marshall Project", "https://madinamerica.com", "An unbelievable story of rape."],
-    ["America Magazine", "https://www.americamagazine.org", "Catholicism in the realms of logic, social justice, traditionalism and progressivism."],
-    ["Archive of Our Own", "https://archiveofourown.org/", "For fanfics!!!"],
-    ["Bari Weiss", "https://bariweiss.substack.com/", "An incredible writer of the post-modern world."],
-    ["Patheos", "https://www.patheos.com", "An Catholicism culture of the post-modern world."],
-    ["Sex Matters", "https://sex-matters.org", "What is sex and why it is so important for our world."],
-    ["2,363", "https://2363.org", "Will you fight for the 2,363?"]
+  "News": [
+    ["Google News", "https://news.google.com/topstories", "https://news.google.com/news/rss/headlines/section/topic/WORLD?ned=us&hl=en"],
+    ["CNN", "https://rss.cnn.com/rss/cnn_topstories.rss", "https://rss.cnn.com/rss/cnn_topstories.rss"],
+    ["BBC", "https://feeds.bbci.co.uk/news/rss.xml", "https://feeds.bbci.co.uk/news/rss.xml"],
+    ["The Guardian", "https://www.theguardian.com/world/rss", "https://www.theguardian.com/world/rss"],
+    ["The New York Times", "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml", "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"],
+    ["The Washington Post", "https://www.washingtonpost.com/rss/homepage_two.xml", "https://www.washingtonpost.com/rss/homepage_two.xml"],
+    ["The Wall Street Journal", "https://www.wsj.com"],
+    ["The Washington Times", "https://www.washingtontimes.com"],
+    ["The Verge", "https://www.theverge.com"],
+    ["CoinMarketCap", "https://coinmarketcap.com"],
+    ["Insider", "https://www.insider.com"],
+    ["bloomberg", "https://www.bloomberg.com"],
+    ["The ign", "https://www.ign.com"],
+    ["Techcrunch", "https://techcrunch.com"],
+    ["Engadget", "https://www.engadget.com"],
+    ["wired", "https://www.wired.com"]
   ],
 
   "Daily": [
-    ["CR", "https://classroom.google.com/u/2/h", "Classroom..."],
+    
     ["inbox", "https://inbox.google.com", "gmail"],
     ["github", "https://github.com", "github"],
     ["drive-google", "https://drive.google.com", "google"],
-    ["sololearn", "https://www.sololearn.com/profile/25104531", "profile"]
+    ["sololearn", "https://www.sololearn.com/profile/25104531", "profile"],
+    ["duolingo", "https://www.duolingo.com/learn", "profile"]
   ],
 
   "Media": [
-    ["renegal soundcloud", "https://soundcloud.com/renegal/tracks", "Cool songs."]
+    ["fmovies", "https://fmovies.to"],
+    ["aparat", "https://www.aparat.com"],
+    ["twitch", "https://www.twitch.tv"],
+    ["spotify", "https://open.spotify.com","Web Player"],
+    ["TikTok", "https://www.tiktok.com/"]
+
   ],
 
   "social": [
-    ["Whatsapp", "https://web.whatsapp.com/", "Whatsapp for LIFE."],
-    ["Twitter", "https://twitter.com/", "Just RTing cool things."]
+    ["Whatsapp", "https://web.whatsapp.com/", "Web client"],
+    ["telegram", "https://web.telegram.org/z/", "Web client"],
+    ["Twitter", "https://twitter.com/"],
+    ["Facebook", "https://facebook.com/"],
+    ["Instagram", "https://instagram.com/"],
+    ["Linkedin", "https://linkedin.com/"],
+    ["Github","https://github.com"],
+    ["pinterest","https://www.pinterest.com"]
+    
+    
   ],
 
   "coding": [
@@ -44,18 +59,27 @@
   ],
 
   "Reddit": [
-    ["2D Animations", "https://vimeo.com/channels/600680", "2D Beatiful animations."],
-    ["Unsplash", "https://unsplash.com/", "Photographies from the World."],
-    ["Inktober52", "https://inktober.com/inktober52", "For drawing every week :)"],
-    ["Santiago Borja", "https://www.santiagoborja.com/", "Photographies from the sky."],
-    ["Eric Armusik", "https://www.ericarmusik.com/", "Post-Modernist Catholic artwork."],
-    ["Leonardo Colour", "https://leonardocolor.io/", "Design colour test."],
-    ["awanqi", "https://linktr.ee/awanqi", "Graphical designer with wonderful colours."],
-    ["Katelyn Rogers", "https://linktr.ee/awanqi", "Wonderful coloring."]
+    ["2D Animations", "https://www.reddit.com/r/csgo"],
+    ["pcmasterrace", "https://www.reddit.com/r/pcmasterrace"],
+    ["unixporn", "https://www.reddit.com/r/unixporn"],
+    ["news", "https://www.reddit.com/r/news"],
+    ["dankmemes", "https://www.reddit.com/r/dankmemes/"],
+    ["teenagers", "https://www.reddit.com/r/teenagers/"],
+    ["homelab", "https://www.reddit.com/r/homelab/"]
+    
+   
   ],
 
-  "cuty": [
-    ["raridashdoodles", "https://raridashdoodles.tumblr.com/post/130577340824/raridash-week-friday-wedding-bells-after", "Raridash Doodles."],
-    ["Space Cat Samba", "https://www.spacecatsamba.com/", "MLP Artwork."]
+  "tools": [
+    ["Unsplash", "https://unsplash.com/", "Photographies from the World."],
+    ["Pixabay", "https://pixabay.com/", "Free images from the web."],
+    ["pexels", "https://www.pexels.com", "Free images from the web."],
+    ["icons8", "https://icons8.com", "Free icons from the web."],
+    ["onlinechart", "https://www.onlinecharttool.com", "Free onlinechart from the web."],
+    ["calculator-1", "https://www.calculator.net"],
+    ["calculator-2", "https://kitset.ir"],
+    ["logomakr", "https://logomakr.com/app/", "Free logo maker"],
+    ["online file convert", "https://onlineconvertfree.com"],
+    ["wordcounter", "https://wordcounter.net", "Free images from the web."]
   ]
 }
