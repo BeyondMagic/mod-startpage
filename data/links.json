@@ -50,16 +50,14 @@
   ],
 
   "coding": [
-    ["RegExr", "https://regexr.com/", "Test the Hell's language."],
-    ["CSS IMG Filter", "https://codepen.io/sosuke/pen/Pjoqqp", "Change the colour of an image with CSS."],
-    ["Github", "https://github.com/", "Programming and Coding for life."],
-    ["Shell Conditions", "https://tldp.org/LDP/abs/html/comparison-ops.html", "Conditions for Shell"],
-    ["Bashism", "https://mywiki.wooledge.org/Bashism", "Bashism for shell scripting (future) fixes."],
-    ["Terminal Namepad", "https://terminalguide.namepad.de/seq/", "Escapes for Terminal developing."]
+    ["w3schools", "https://www.w3schools.com"],
+    ["codepen run website online", "https://codepen.io"],
+    ["replit run code online", "https://replit.com/"],
+    ["codechef /Code, Compile & Run", "https://www.codechef.com/ide"]
   ],
 
   "Reddit": [
-    ["2D Animations", "https://www.reddit.com/r/csgo"],
+    ["csgo", "https://www.reddit.com/r/csgo"],
     ["pcmasterrace", "https://www.reddit.com/r/pcmasterrace"],
     ["unixporn", "https://www.reddit.com/r/unixporn"],
     ["news", "https://www.reddit.com/r/news"],
@@ -70,7 +68,7 @@
    
   ],
 
-  "tools": [
+  "Tools": [
     ["Unsplash", "https://unsplash.com/", "Photographies from the World."],
     ["Pixabay", "https://pixabay.com/", "Free images from the web."],
     ["pexels", "https://www.pexels.com", "Free images from the web."],
@@ -80,6 +78,8 @@
     ["calculator-IR", "https://kitset.ir"],
     ["logomakr", "https://logomakr.com/app/", "Free logo maker"],
     ["online file convert", "https://onlineconvertfree.com"],
-    ["wordcounter", "https://wordcounter.net", "Free images from the web."]
+    ["wordcounter", "https://wordcounter.net", "Free images from the web."],
+    ["online file convert", "https://toolstud.io"],
+    ["ip/subnet calculator ", "https://www.subnet-calculator.com"]
   ]
 }
