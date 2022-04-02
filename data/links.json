@@ -74,12 +74,18 @@
     ["pexels", "https://www.pexels.com", "Free images from the web."],
     ["icons8", "https://icons8.com", "Free icons from the web."],
     ["onlinechart", "https://www.onlinecharttool.com", "Free onlinechart from the web."],
-    ["money and investment-calculator-EN", "https://www.calculator.net"],
-    ["money and investment-calculator-IR", "https://kitset.ir"],
+    ["money and investment-EN", "https://www.calculator.net"],
+    ["money and investment-IR", "https://kitset.ir"],
     ["logomakr", "https://logomakr.com/app/", "Free logo maker"],
     ["online file convert", "https://onlineconvertfree.com"],
     ["wordcounter", "https://wordcounter.net", "Free images from the web."],
     ["online file convert", "https://toolstud.io"],
     ["ip/subnet calculator ", "https://www.subnet-calculator.com"]
+  ],
+
+  "etc": [
+    ["emalls", "https://www.emalls.ir/"]
+    
+   
   ]
 }

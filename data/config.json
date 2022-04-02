@@ -11,12 +11,11 @@
     [ "google", "https://www.google.com/search", "q" ],
     [ "youtube", "https://www.youtube.com/results", "search_query" ],
     [ "github", "https://github.com/search", "q" ],
-    [ "wikipedia", "https://en.wikipedia.org/wiki/Special:Search", "q" ],
-    [ "Amazon", "https://www.amazon.com/search", "q" ],
+
     [ "Facebook", "https://www.facebook.com/search", "q" ],
-    [ "torob", "https://torob.com/search", "q" ],
-    [ "emalls", "https://emalls.ir/search", "q" ],
-    [ "digikala", "https://www.digikala.com/search", "q" ]
-    
+    [ "torob", "https://torob.com/search", "query" ],
+    [ "digikala", "https://www.digikala.com/search", "q" ],
+    [ "wikipedia", "https://en.wikipedia.org/w/index.php", "search" ],
+    [ "Amazon", "https://www.amazon.com/s", "field-keywords" ]
   ]
 }
