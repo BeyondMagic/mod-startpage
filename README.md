@@ -87,6 +87,14 @@ Self-explanatory:
   <img src="/.github/preview3.png">
 </p>
 
+<p align="center">
+  <img src="/.github/preview4.png">
+</p>
+
+<p align="center">
+  <img src="/.github/preview5.gif">
+</p>
+
 ---
 
 <p align="center">
