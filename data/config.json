@@ -13,6 +13,10 @@
     [ "github", "https://github.com/search", "q" ],
     [ "wikipedia", "https://en.wikipedia.org/wiki/Special:Search", "q" ],
     [ "Amazon", "https://www.amazon.com/search", "q" ],
-    [ "Facebook", "https://www.facebook.com/search", "q" ]
+    [ "Facebook", "https://www.facebook.com/search", "q" ],
+    [ "torob", "https://torob.com/search", "q" ],
+    [ "emalls", "https://emalls.ir/search", "q" ],
+    [ "digikala", "https://www.digikala.com/search", "q" ]
+    
   ]
 }
