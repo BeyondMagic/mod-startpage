@@ -10,6 +10,7 @@
   "searches": [
     [ "google", "https://www.google.com/search", "q" ],
     [ "youtube", "https://www.youtube.com/results", "search_query" ],
-    [ "github", "https://github.com/search", "q" ]
+    [ "github", "https://github.com/search", "q" ],
+    [ "wikipedia", "https://en.wikipedia.org/wiki/Special:Search", "q" ]
   ]
 }
