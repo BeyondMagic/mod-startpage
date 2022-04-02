@@ -1,8 +1,8 @@
 :root {
 
-  --background-colour: rgba(8, 8, 8, 0.75);
-  --text-colour: #EAEAEA;
-  --sub-colour: #B7B8BE;
-  --light-input: rgba(0, 0, 0, 1);
-
+  --background-colour: rgba(128, 106, 5, 0.75);
+  --text-colour: #000000;
+  --sub-colour: #0024ff;
+  --light-input: rgb(237 255 0);
+  
 }

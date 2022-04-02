@@ -53,7 +53,7 @@
     ["w3schools", "https://www.w3schools.com"],
     ["codepen run website online", "https://codepen.io"],
     ["replit run code online", "https://replit.com/"],
-    ["codechef /Code, Compile & Run", "https://www.codechef.com/ide"]
+    ["Code, Compile & Run", "https://www.codechef.com/ide","codechef"]
   ],
 
   "Reddit": [
