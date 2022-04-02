@@ -99,7 +99,7 @@
 
   position: absolute;
   top: .25rem; left: 1rem;
-  opacity: .5;
+  opacity: 27.5;
 
   font-family: 'bbkk';
   font-weight: 300;
@@ -107,7 +107,7 @@
 
   pointer-events: none;
 
-  color: var(--accent-colour);
+  color: rgb(0 0 0);
   
 
 }

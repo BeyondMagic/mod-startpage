@@ -1,5 +1,5 @@
 :root {
-
+  --accent-colour: rgb(0, 0, 0);
   --background-colour: rgba(128, 106, 5, 0.75);
   --text-colour: #000000;
   --sub-colour: #0024ff;
