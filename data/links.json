@@ -15,64 +15,65 @@
     ["CoinMarketCap", "https://coinmarketcap.com"],
     ["The New York Times", "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml", "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"],
     ["The Washington Post", "https://www.washingtonpost.com/rss/homepage_two.xml", "https://www.washingtonpost.com/rss/homepage_two.xml"],
-
     ["The Washington Times", "https://www.washingtontimes.com"],
     ["The Wall Street Journal", "https://www.wsj.com"]
+    
   ],
 
   "Daily": [
-    ["google-drive", "https://drive.google.com", "google"],
-    ["sololearn", "https://www.sololearn.com/profile/25104531", "profile"],
-    ["duolingo", "https://www.duolingo.com/learn", "profile"],
-    ["translet", "https://www.google.com/search?q=translet"],
+
+    ["keep", "https://keep.google.com/#home"],
     ["inbox", "https://inbox.google.com", "gmail"],
     ["github", "https://github.com", "github"],
-    ["keep", "https://keep.google.com/#home"]
+    ["translet", "https://www.google.com/search?q=translet"],
+    ["sololearn", "https://www.sololearn.com/profile/25104531", "profile"],
+    ["google-drive", "https://drive.google.com", "google"] 
+
   ],
 
   "Media": [
 
-    ["youtube", "https://www.youtube.com"],
-    ["fmovies", "https://fmovies.to"],
-    ["spotify", "https://open.spotify.com","Web Player"],
     ["aparat", "https://www.aparat.com"],
     ["twitch", "https://www.twitch.tv"],
-
-    ["TikTok", "https://www.tiktok.com/"]
+    ["TikTok", "https://www.tiktok.com/"],
+    ["youtube", "https://www.youtube.com"],
+    ["fmovies", "https://fmovies.to"],
+    ["spotify", "https://open.spotify.com","Web Player"]
 
   ],
 
   "social": [
-    ["pinterest","https://www.pinterest.com"],
-    ["Instagram", "https://instagram.com/"],
-    ["telegram", "https://web.telegram.org/z/", "Web client"],
+
+    ["Github","https://github.com"],
+    ["Twitter", "https://twitter.com/"],
+    ["Whatsapp", "https://web.whatsapp.com/", "Web client"],
     ["Linkedin", "https://linkedin.com/"],
     ["Facebook", "https://facebook.com/"],
-    ["Whatsapp", "https://web.whatsapp.com/", "Web client"],
-    ["Twitter", "https://twitter.com/"],
-    ["Github","https://github.com"]
-    
+    ["telegram", "https://web.telegram.org/z/", "Web client"],
+    ["Instagram", "https://instagram.com/"],
+    ["pinterest","https://www.pinterest.com"]
+
   ],
 
   "coding": [
+
     ["w3schools", "https://www.w3schools.com"],
     ["codepen run website online", "https://codepen.io"],
     ["replit run code online", "https://replit.com/"],
     ["Code, Compile & Run", "https://www.codechef.com/ide","codechef"]
+
   ],
 
   "Reddit": [
 
-    ["pcmasterrace", "https://www.reddit.com/r/pcmasterrace"],
-    
-    ["dankmemes", "https://www.reddit.com/r/dankmemes/"],
-    ["teenagers", "https://www.reddit.com/r/teenagers/"],
-    ["unixporn", "https://www.reddit.com/r/unixporn"],
-    ["homelab", "https://www.reddit.com/r/homelab/"],
     ["csgo", "https://www.reddit.com/r/csgo"],
-    ["news", "https://www.reddit.com/r/news"]
-    
-   
+    ["news", "https://www.reddit.com/r/news"],
+    ["homelab", "https://www.reddit.com/r/homelab/"],
+    ["unixporn", "https://www.reddit.com/r/unixporn"],
+    ["teenagers", "https://www.reddit.com/r/teenagers/"],
+    ["dankmemes", "https://www.reddit.com/r/dankmemes/"],
+    ["pcmasterrace", "https://www.reddit.com/r/pcmasterrace"]
+
   ],
 
   "Tools": [
@@ -97,5 +98,11 @@
     ["emalls", "https://www.emalls.ir/"]
     
    
+  ],
+  
+  "linux": [
+    ["archlinux-wiki", "https://wiki.archlinux.org"],
+    ["debianlinux-wiki", "https://wiki.debian.org"],
+    ["command-not-found", "https://command-not-found.com"]
   ]
 }
