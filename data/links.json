@@ -17,7 +17,7 @@
     ["The Washington Post", "https://www.washingtonpost.com/rss/homepage_two.xml", "https://www.washingtonpost.com/rss/homepage_two.xml"],
     ["The Washington Times", "https://www.washingtontimes.com"],
     ["The Wall Street Journal", "https://www.wsj.com"]
-    
+
   ],
 
   "Daily": [
@@ -33,12 +33,12 @@
 
   "Media": [
 
-    ["aparat", "https://www.aparat.com"],
-    ["twitch", "https://www.twitch.tv"],
     ["TikTok", "https://www.tiktok.com/"],
-    ["youtube", "https://www.youtube.com"],
+    ["twitch", "https://www.twitch.tv"],
+    ["spotify", "https://open.spotify.com","Web Player"],
+    ["aparat", "https://www.aparat.com"],
     ["fmovies", "https://fmovies.to"],
-    ["spotify", "https://open.spotify.com","Web Player"]
+    ["youtube", "https://www.youtube.com"]
 
   ],
 
@@ -46,13 +46,13 @@
 
     ["Github","https://github.com"],
     ["Twitter", "https://twitter.com/"],
-    ["Whatsapp", "https://web.whatsapp.com/", "Web client"],
     ["Linkedin", "https://linkedin.com/"],
-    ["Facebook", "https://facebook.com/"],
+    ["pinterest","https://www.pinterest.com"],
     ["telegram", "https://web.telegram.org/z/", "Web client"],
+    ["Facebook", "https://facebook.com/"],
     ["Instagram", "https://instagram.com/"],
-    ["pinterest","https://www.pinterest.com"]
-
+    ["Whatsapp", "https://web.whatsapp.com/", "Web client"]
+    
   ],
 
   "coding": [
@@ -68,8 +68,8 @@
 
     ["csgo", "https://www.reddit.com/r/csgo"],
     ["news", "https://www.reddit.com/r/news"],
-    ["homelab", "https://www.reddit.com/r/homelab/"],
     ["unixporn", "https://www.reddit.com/r/unixporn"],
+    ["homelab", "https://www.reddit.com/r/homelab/"],
     ["teenagers", "https://www.reddit.com/r/teenagers/"],
     ["dankmemes", "https://www.reddit.com/r/dankmemes/"],
     ["pcmasterrace", "https://www.reddit.com/r/pcmasterrace"]
