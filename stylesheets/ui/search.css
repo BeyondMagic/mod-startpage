@@ -44,6 +44,7 @@
   position: absolute;
   bottom: 0.5rem; right: 50%;
   transform: translate(50%, -50%);
+  color: white;
 
   /* Ignore mouse events */
   pointer-events: none;
@@ -59,6 +60,6 @@
 #form #input:focus ~ #input-label {
 
   bottom: 3.5rem;
-  opacity: 0.25;
+  opacity: 50.25;
 
 }
