@@ -57,11 +57,14 @@
 
   "coding": [
 
+    ["replit", "https://replit.com/","run code online"],
+    ["CodePen", "https://codepen.io","run website online"],
     ["w3schools", "https://www.w3schools.com"],
-    ["codepen run website online", "https://codepen.io"],
-    ["replit run code online", "https://replit.com/"],
+    ["stackoverflow", "https://stackoverflow.com"],
     ["Code, Compile & Run", "https://www.codechef.com/ide","codechef"]
-
+    
+    
+    
   ],
 
   "Reddit": [
@@ -78,15 +81,15 @@
 
   "Tools": [
     
-    
+    ["vecta", "https://vecta.io", "Free icons from the web."],
     ["pexels", "https://www.pexels.com", "Free images from the web."],
     ["icons8", "https://icons8.com", "Free icons from the web."],
     ["Pixabay", "https://pixabay.com/", "Free images from the web."],
     ["Unsplash", "https://unsplash.com/", "Photographies from the World."],
     ["logomakr", "https://logomakr.com/app/", "Free logo maker"],
-
     ["wordcounter", "https://wordcounter.net", "Free images from the web."],
-    ["online file convert", "https://onlineconvertfree.com"],
+    ["worldvectorlogo", "https://worldvectorlogo.com", "Free icons from the web."],
+    ["online file convert", "https://onlineconvertfree.com"], 
     ["ip/subnet calculator ", "https://www.subnet-calculator.com"],
     ["calculators and converters", "https://toolstud.io"],
     ["money and investment-EN", "https://www.calculator.net"],
@@ -95,14 +98,23 @@
   ],
 
   "etc": [
-    ["emalls", "https://www.emalls.ir/"]
     
-   
+    ["emalls", "https://www.emalls.ir/"],
+    ["megatags", "https://megatags.co", "socialMedia TAG"],
+    ["alternativeto", "https://alternativeto.net", "alternatives to app"]
+
   ],
   
   "linux": [
     ["archlinux-wiki", "https://wiki.archlinux.org"],
     ["debianlinux-wiki", "https://wiki.debian.org"],
     ["command-not-found", "https://command-not-found.com"]
+  ],
+
+  "Local Hosts / Local ports": [
+
+    ["Pi-hole", "http://192.168.1.8/admin/"],
+    ["jellyfin", "http://192.168.56.1:8096/"]
+    
   ]
 }
