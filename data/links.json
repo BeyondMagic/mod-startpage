@@ -23,11 +23,14 @@
   "Daily": [
 
     ["keep", "https://keep.google.com/#home"],
-    ["inbox", "https://inbox.google.com", "gmail"],
     ["github", "https://github.com", "github"],
     ["translet", "https://www.google.com/search?q=translet"],
     ["sololearn", "https://www.sololearn.com/profile/25104531", "profile"],
-    ["google-drive", "https://drive.google.com", "google"] 
+    ["inbox-gmail", "https://inbox.google.com", "gmail"],
+    ["inbox-yahoo", "https://mail.yahoo.com", "yahoo"],
+    ["inbox-outlook", "https://outlook.live.com/mail/0/", "outlook"],
+    ["inbox-protonmail", "https://mail.protonmail.com/u/0/inbox", "protonmail"]
+    
 
   ],
 
@@ -84,6 +87,7 @@
     ["vecta", "https://vecta.io", "Free icons from the web."],
     ["pexels", "https://www.pexels.com", "Free images from the web."],
     ["icons8", "https://icons8.com", "Free icons from the web."],
+    ["flaticon", "https://www.flaticon.com", "Free icons from the web."],
     ["Pixabay", "https://pixabay.com/", "Free images from the web."],
     ["Unsplash", "https://unsplash.com/", "Photographies from the World."],
     ["logomakr", "https://logomakr.com/app/", "Free logo maker"],
@@ -101,6 +105,7 @@
     
     ["emalls", "https://www.emalls.ir/"],
     ["megatags", "https://megatags.co", "socialMedia TAG"],
+    ["google-drive", "https://drive.google.com", "google"],
     ["alternativeto", "https://alternativeto.net", "alternatives to app"]
 
   ],
@@ -114,7 +119,14 @@
   "Local Hosts / Local ports": [
 
     ["Pi-hole", "http://192.168.1.8/admin/"],
-    ["jellyfin", "http://192.168.56.1:8096/"]
+    ["FTP SERVER", "#"],
+    ["DNS SERVER", "#"],
+    ["VPN SERVER", "#"],
+    ["SSH SERVER", "#"],
+    ["WEB SERVER", "#"],
+    ["Security Cameras", "#"],
+    ["Miners", "https://ethermine.org/miners/70f804309Bb594779cA927EF4a959Ed17a3aFBdB/dashboard"],
+    ["jellyfin", "http://192.168.1.6:8096/"]
     
   ]
 }
