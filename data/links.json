@@ -118,15 +118,17 @@
 
   "Local Hosts / Local ports": [
 
-    ["Pi-hole", "http://192.168.1.8/admin/"],
-    ["FTP SERVER", "#"],
-    ["DNS SERVER", "#"],
-    ["VPN SERVER", "#"],
-    ["SSH SERVER", "#"],
-    ["WEB SERVER", "#"],
-    ["Security Cameras", "#"],
     ["Miners", "https://ethermine.org/miners/70f804309Bb594779cA927EF4a959Ed17a3aFBdB/dashboard"],
-    ["jellyfin", "http://192.168.1.6:8096/"]
+    ["Pi-hole", "http://192.168.1.8/admin/"],
+    ["jellyfin", "http://192.168.1.6:8096/"],
+    ["FTP Server", "#"],
+    ["DNS Server", "#"],
+    ["VPN Server", "#"],
+    ["SSH Server", "#"],
+    ["Web Server", "#"],
+    ["Security Cameras", "#"]
+    
+  
     
   ]
 }
