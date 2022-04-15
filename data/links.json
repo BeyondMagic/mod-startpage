@@ -21,7 +21,7 @@
   ],
 
   "Daily": [
-
+    ["porn", "https://www.xvideos.com","xvideos"],
     ["keep", "https://keep.google.com/#home"],
     ["github", "https://github.com", "github"],
     ["translet", "https://www.google.com/search?q=translet"],
@@ -90,6 +90,7 @@
     ["flaticon", "https://www.flaticon.com", "Free icons from the web."],
     ["Pixabay", "https://pixabay.com/", "Free images from the web."],
     ["Unsplash", "https://unsplash.com/", "Photographies from the World."],
+    ["diagrams", "https://app.diagrams.net"],
     ["logomakr", "https://logomakr.com/app/", "Free logo maker"],
     ["wordcounter", "https://wordcounter.net", "Free images from the web."],
     ["worldvectorlogo", "https://worldvectorlogo.com", "Free icons from the web."],
@@ -98,6 +99,8 @@
     ["calculators and converters", "https://toolstud.io"],
     ["money and investment-EN", "https://www.calculator.net"],
     ["money and investment-IR", "https://kitset.ir"]
+    
+    
 
   ],
 
